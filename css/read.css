@@ -1,0 +1,61 @@
+th {
+  border: 1px solid #999999;
+}
+#th-name {
+  width: 200px;
+}
+#th-mail {
+  width: 300px;
+}
+#th-iken {
+  width: 300px;
+}
+#th-info {
+  width: 1000px;
+}
+td {
+  border: 1px solid #999999;
+}
+#data {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+}
+#g-bou {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 300px;
+  padding: 30px;
+  margin: 10px;
+  background-color: #c2eeff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 陰の設定 */
+  z-index: 000;
+}
+#g-en {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 300px;
+  padding: 30px;
+  margin: 10px;
+  background-color: #c2eeff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 陰の設定 */
+  z-index: 000;
+}
+#myGurafu {
+  width: 300px !important; /* 幅を指定 */
+  height: 300px !important; /* 高さを指定 */
+}
+fieldset {
+  margin: 10px;
+  background-color: #aeffbd;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 陰の設定 */
+}

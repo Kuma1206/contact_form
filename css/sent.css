@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+p {
+  margin: 0px;
+}
+#sent-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+}
+button {
+  background-color: #cccccc;
+  border: 1px solid #bbbbbb; /* 1pxの幅、実線、黒色のボーダー */ /* 枠線を消す */
+  border-radius: 5px; /* 角を丸くする */
+  padding: 5px 15px; /* 必要に応じてパディングを設定 */
+  margin: 10px;
+  color: #555555; /* テキストの色を白に設定 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+}
+button:hover {
+  background-color: #333333;
+  border: none; /* 枠線を消す */
+  border-radius: 5px; /* 角を丸くする */
+  padding: 5px 15px; /* 必要に応じてパディングを設定 */
+  color: #eeeeee; /* テキストの色を白に設定 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+}

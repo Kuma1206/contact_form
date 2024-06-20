@@ -1,0 +1,153 @@
+.t-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #e7e5e5;
+}
+
+#confirmation-screen {
+  display: none;
+}
+
+.data {
+  display: flex;
+}
+
+#sent-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#confirmation-screen {
+  display: none;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 600px;
+  background-color: #ebf0f5;
+  border: 3px solid #bbbbbb; /* 枠線の太さと色を指定 */
+  border-radius: 10px; /* 角を丸くする */
+}
+/* テキスト全体に適用する場合 */
+body {
+  font-family: "Meiryo", sans-serif; /* フォントの指定 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  margin: 20px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.case {
+  width: 120px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+  margin: 0px;
+}
+.info-box {
+  width: 200px;
+  height: 25px;
+  border: 2px solid #bbbbbb; /* 枠線の太さと色を指定 */
+  border-radius: 5px;
+}
+.select-box {
+  width: 210px;
+  height: 30px;
+  border: 2px solid #bbbbbb; /* 枠線の太さと色を指定 */
+  border-radius: 5px;
+}
+#text-box {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid #bbbbbb; /* 枠線の太さと色を指定 */
+  border-radius: 5px;
+  /* display: flex;
+            justify-content: flex-start;
+            align-items: flex-start; */
+}
+
+.t-box {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 10px;
+}
+#checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+#kakunin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kauningamen {
+  padding: 10px;
+}
+.naiyou {
+  width: 250px;
+  white-space: pre-line; /* 改行を保持 */
+  font-family: "Meiryo", sans-serif; /* フォントの指定 */
+}
+#b-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h-button {
+  margin: 10px;
+}
+button {
+  background-color: #cccccc;
+  border: none; /* 枠線を消す */
+  border-radius: 5px; /* 角を丸くする */
+  padding: 5px 15px; /* 必要に応じてパディングを設定 */
+  color: #555555; /* テキストの色を白に設定 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+}
+button:hover {
+  background-color: #333333;
+  border: none; /* 枠線を消す */
+  border-radius: 5px; /* 角を丸くする */
+  padding: 5px 15px; /* 必要に応じてパディングを設定 */
+  color: #eeeeee; /* テキストの色を白に設定 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+}
+
+#error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 16px; /* フォントの大きさを変更 */
+  font-weight: 700; /* フォントの太さを変更 */
+  margin-top: 10px; /* エラーメッセージとボタンの間に余白を設定 */
+}
