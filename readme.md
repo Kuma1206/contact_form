@@ -6,7 +6,7 @@
 ・送信されたデータはCSVに取り込まれ、read.phpでグラフで可視化できる  
 
 # ③DEMO
-　https://kuma1206.github.io/shinario-editor/
+https://kuma1206.github.io/contact_form  
 
 # ④作ったアプリケーション用のIDまたはPasswordがある場合
 　ID: 今回なし  
